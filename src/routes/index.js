@@ -8,10 +8,6 @@ function route(app) {
     // siteRouter
     app.get('/search', siteRouter);
     app.use('/', siteRouter);
-
-
-
-
 }
 
 module.exports = route;
