@@ -1,6 +1,6 @@
 const express = require('express'); //đi vào thư mục node_modules để tải thư viện express trả về function
 const app = express(); // gọi tới function express() trả về đối tượng đại diện cho ứng dụng nodejs để có thể xây dựng website
-const port = 3001; // cổng chạy website
+const port = proces.env.port || 3000; // cổng chạy website
 
 // morgan
 const morgan = require('morgan');
